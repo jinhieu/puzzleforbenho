@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+body { 
+    background-image: url(/Python/Crossword/Screenshot\ 2025-02-26\ 170307.png);
+    background-size: cover;
+}
+#cover {
+    position: absolute;
+    top: 1vh;
+    right: 0.5vw;
+    width:fit-content;
+    padding: 0;
+}
+.letter {
+    height: 10vh;
+    width: 10vh;
+    font-size: 8vh;
+    text-align: center;
+    background-color: rgb(255, 221, 226);
+    opacity: 0.6;
+    border: solid black;
+    border-radius: 5%;
+    margin: 0.5vh;
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.row1 {
+    margin-left: 22vh;
+}
+.row2 {
+    margin-left: 11vh;
+}
+.row3 {
+    margin-left: 0vh;
+}
+.row4 {
+    margin-left: 33vh;
+}
+.row5 {
+    margin-left: 22vh;
+}
+.row6 {
+    margin-left: 11vh;
+}
+.row7 {
+    margin-left: 33vh;
+}
+.row8 {
+    margin-left: 0vh;
+}
+.row9 {
+    margin-left: 11vh;
+}
+#hint {
+    position: absolute;
+    top: 1vh;
+    left: 2vw;
+    width: 45vw;
+}
+h1 {
+    height: 10vh;
+    padding-top: 3.5vh;
+    margin: 1vh;
+    font-size: 3vh;
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.double_lines {
+    padding-top: 1vh;
+}

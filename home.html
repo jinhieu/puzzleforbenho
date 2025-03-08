@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id = "cover">
+    <div class="row1">
+        <input class="letter" type="text" maxlength="1" data-correct="e"><input class="letter" type="text" maxlength="1" data-correct="m" style="background-color: blanchedalmond;"><input class="letter" type="text" maxlength="1" data-correct="b"><input class="letter" type="text" maxlength="1" data-correct="e">
+    </div>
+    <div class="row2">
+        <input class="letter" type="text" maxlength="1" data-correct="n"><input class="letter" type="text" maxlength="1" data-correct="h"><input class="letter" type="text" maxlength="1" data-correct="o" style="background-color: blanchedalmond;">
+    </div>
+    <div class="row3">
+        <input class="letter" type="text" maxlength="1" data-correct="m"><input class="letter" type="text" maxlength="1" data-correct="a"><input class="letter" type="text" maxlength="1" data-correct="t"><input class="letter" type="text" maxlength="1" data-correct="t" style="background-color: blanchedalmond;"><input class="letter" type="text" maxlength="1" data-correct="r"><input class="letter" type="text" maxlength="1" data-correct="a"><input class="letter" type="text" maxlength="1" data-correct="n"><input class="letter" type="text" maxlength="1" data-correct="g">
+    </div>
+    <div class="row4">
+        <input class="letter" type="text" maxlength="1" data-correct="c" style="background-color: blanchedalmond;"><input class="letter" type="text" maxlength="1" data-correct="o"><input class="letter" type="text" maxlength="1" data-correct="d"><input class="letter" type="text" maxlength="1" data-correct="e">
+    </div>
+    <div class="row5">
+        <input class="letter" type="text" maxlength="1" data-correct="t"><input class="letter" type="text" maxlength="1" data-correct="h" style="background-color: blanchedalmond;"><input class="letter" type="text" maxlength="1" data-correct="o"><input class="letter" type="text" maxlength="1" data-correct="m">
+    </div>
+    <div class="row6">
+        <input class="letter" type="text" maxlength="1" data-correct="c"><input class="letter" type="text" maxlength="1" data-correct="h"><input class="letter" type="text" maxlength="1" data-correct="i" style="background-color: blanchedalmond;"><input class="letter" type="text" maxlength="1" data-correct="m"><input class="letter" type="text" maxlength="1" data-correct="b"><input class="letter" type="text" maxlength="1" data-correct="i"><input class="letter" type="text" maxlength="1" data-correct="n"><input class="letter" type="text" maxlength="1" data-correct="o"><input class="letter" type="text" maxlength="1" data-correct="n">
+    </div>
+    <div class="row7">
+        <input class="letter" type="text" maxlength="1" data-correct="n" style="background-color: blanchedalmond;"><input class="letter" type="text" maxlength="1" data-correct="h"><input class="letter" type="text" maxlength="1" data-correct="i"><input class="letter" type="text" maxlength="1" data-correct="e"><input class="letter" type="text" maxlength="1" data-correct="u">
+    </div>
+    <div class="row8">
+        <input class="letter" type="text" maxlength="1" data-correct="b"><input class="letter" type="text" maxlength="1" data-correct="a"><input class="letter" type="text" maxlength="1" data-correct="n"><input class="letter" type="text" maxlength="1" data-correct="b" style="background-color: blanchedalmond;"><input class="letter" type="text" maxlength="1" data-correct="o"><input class="letter" type="text" maxlength="1" data-correct="n"><input class="letter" type="text" maxlength="1" data-correct="g">
+    </div>
+    <div class="row9">
+        <input class="letter" type="text" maxlength="1" data-correct="d"><input class="letter" type="text" maxlength="1" data-correct="i"><input class="letter" type="text" maxlength="1" data-correct="a" style="background-color: blanchedalmond;"><input class="letter" type="text" maxlength="1" data-correct="n"><input class="letter" type="text" maxlength="1" data-correct="s"><input class="letter" type="text" maxlength="1" data-correct="a"><input class="letter" type="text" maxlength="1" data-correct="n"><input class="letter" type="text" maxlength="1" data-correct="g">
+    </div>
+    </div>
+    <div id="hint">
+        <h1>1. Cậu là gì của tớ</h1>
+        <h1>2. Kích cỡ của cậu là gì</h1>
+        <h1>3. Biệt danh đầu tiên tớ đặt cho cậu</h1>
+        <h1>4. Cậu nhờ tớ giúp gì làm bọn mình quen nhau ^^</h1>
+        <h1>5. Ngày 14/5/2024 má cậu bị tớ tác động như nào</h1>
+        <h1>6. Biệt danh cậu đặt cho tớ (cậu ghép lời vào bài hát Nhật Bản)</h1>
+        <h1 class="double_lines">7. Tính từ tớ dùng để miêu tả cậu hồi mới nói chuyện, ban đầu cậu chưa biết từ này</h1>
+        <h1 class="double_lines">8. Món quà cậu tặng cho tớ, để tớ nhớ đến cậu và để tớ không phải ngủ một mình</h1>
+        <h1>9. Chuyện đầu tiên mình làm riêng với nhau</h1>
+    </div>
+
+    <script>
+        document.querySelectorAll("input").forEach((input, index, inputs) => {
+            input.addEventListener("input", function() {
+                if (this.value === this.dataset.correct) {
+                    this.style.backgroundColor = "lightgreen";
+                } else {
+                    if (this.style.backgroundColor = "blanchealmond") {
+                        this.style.backgroundColor = "blanchealmond"
+                    } else { 
+                    this.style.backgroundColor = "lightpink"; // Reset if incorrect
+                    }
+                }
+                // Move to the next input automatically if there is one
+                if (this.value !== "" && index < inputs.length - 1) {
+                    inputs[index + 1].focus();
+                }
+            });
+
+            input.addEventListener("keydown", function(event) {
+                if (event.key === "ArrowRight" && index < inputs.length - 1) {
+                    inputs[index + 1].focus();
+                } else if (event.key === "ArrowLeft" && index > 0) {
+                    inputs[index - 1].focus();
+                }
+            });
+        });
+        
+     
+    </script>
+</body>
+</html>
